@@ -1,0 +1,113 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'mocha',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.10.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData mocha@git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc
+8 silly fetchOtherPackageData mocha@git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc
+9 silly cache add args [ 'mocha@git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc',
+9 silly cache add   null ]
+10 verbose cache add spec mocha@git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'mocha@git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'mocha',
+11 silly cache add   name: 'mocha',
+11 silly cache add   rawSpec: 'git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc',
+11 silly cache add   spec: 'ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc',
+11 silly cache add   type: 'git' }
+12 verbose addRemoteGit caching git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc
+13 silly tryClone cloning git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc via git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc
+14 verbose tryClone git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea not in flight; caching
+15 verbose correctMkdir C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+16 verbose makeDirectory C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes creation not in flight; initializing
+17 verbose makeCacheDir UID & GID are irrelevant on win32
+18 info git [ 'clone',
+18 info git   '--template=C:\\Users\\obansal\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+18 info git   '--mirror',
+18 info git   'git@git.corp.adobe.com:rainwate/mocha.git',
+18 info git   'C:\\Users\\obansal\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea' ]
+19 error git clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea: Cloning into bare repository 'C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea'...
+19 error git clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea: ssh: Could not resolve hostname git.corp.adobe.com: Name or service not known
+19 error git clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea: fatal: Could not read from remote repository.
+19 error git clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea:
+19 error git clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea: Please make sure you have the correct access rights
+19 error git clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea: and the repository exists.
+20 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea
+20 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea'...
+20 silly fetchPackageMetaData ssh: Could not resolve hostname git.corp.adobe.com: Name or service not known
+20 silly fetchPackageMetaData fatal: Could not read from remote repository.
+20 silly fetchPackageMetaData
+20 silly fetchPackageMetaData Please make sure you have the correct access rights
+20 silly fetchPackageMetaData and the repository exists.
+20 silly fetchPackageMetaData
+20 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:204:12)
+20 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+20 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+20 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:886:16)
+20 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:342:11)
+20 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+20 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+20 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:497:12)
+20 silly fetchPackageMetaData  error for mocha@git+ssh://git@git.corp.adobe.com:rainwate/mocha.git#f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc { Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea
+20 silly fetchPackageMetaData Cloning into bare repository 'C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea'...
+20 silly fetchPackageMetaData ssh: Could not resolve hostname git.corp.adobe.com: Name or service not known
+20 silly fetchPackageMetaData fatal: Could not read from remote repository.
+20 silly fetchPackageMetaData
+20 silly fetchPackageMetaData Please make sure you have the correct access rights
+20 silly fetchPackageMetaData and the repository exists.
+20 silly fetchPackageMetaData
+20 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:204:12)
+20 silly fetchPackageMetaData     at emitTwo (events.js:106:13)
+20 silly fetchPackageMetaData     at ChildProcess.emit (events.js:191:7)
+20 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:886:16)
+20 silly fetchPackageMetaData     at Socket.<anonymous> (internal/child_process.js:342:11)
+20 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+20 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+20 silly fetchPackageMetaData     at Pipe._handle.close [as _onclose] (net.js:497:12)
+20 silly fetchPackageMetaData   killed: false,
+20 silly fetchPackageMetaData   code: 128,
+20 silly fetchPackageMetaData   signal: null,
+20 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone --template=C:\\Users\\obansal\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\\Users\\obansal\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea' }
+21 silly rollbackFailedOptional Starting
+22 silly rollbackFailedOptional Finishing
+23 silly runTopLevelLifecycles Finishing
+24 silly install printInstalled
+25 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea
+25 verbose stack Cloning into bare repository 'C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea'...
+25 verbose stack ssh: Could not resolve hostname git.corp.adobe.com: Name or service not known
+25 verbose stack fatal: Could not read from remote repository.
+25 verbose stack
+25 verbose stack Please make sure you have the correct access rights
+25 verbose stack and the repository exists.
+25 verbose stack
+25 verbose stack     at ChildProcess.exithandler (child_process.js:204:12)
+25 verbose stack     at emitTwo (events.js:106:13)
+25 verbose stack     at ChildProcess.emit (events.js:191:7)
+25 verbose stack     at maybeClose (internal/child_process.js:886:16)
+25 verbose stack     at Socket.<anonymous> (internal/child_process.js:342:11)
+25 verbose stack     at emitOne (events.js:96:13)
+25 verbose stack     at Socket.emit (events.js:188:7)
+25 verbose stack     at Pipe._handle.close [as _onclose] (net.js:497:12)
+26 verbose cwd C:\muse
+27 error Windows_NT 10.0.14393
+28 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "mocha" "--save"
+29 error node v6.10.3
+30 error npm  v3.10.10
+31 error code 128
+32 error Command failed: git -c core.longpaths=true clone --template=C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@git.corp.adobe.com:rainwate/mocha.git C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea
+32 error Cloning into bare repository 'C:\Users\obansal\AppData\Roaming\npm-cache\_git-remotes\git-ssh-git-git-corp-adobe-com-rainwate-mocha-git-f3c7a1b3a0c8b8ac8084457e92c30464e8150cbc-813405ea'...
+32 error ssh: Could not resolve hostname git.corp.adobe.com: Name or service not known
+32 error fatal: Could not read from remote repository.
+32 error
+32 error Please make sure you have the correct access rights
+32 error and the repository exists.
+33 error If you need help, you may report this error at:
+33 error     <https://github.com/npm/npm/issues>
+34 verbose exit [ 1, true ]
